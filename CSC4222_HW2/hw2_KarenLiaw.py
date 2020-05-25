@@ -39,7 +39,7 @@ print(" Problem 1 ")
 computedHash = verifier(password, salt, givenHash)
 print()
 print(" Problem 2 ")
-#PROBLEM 2: DETERMINE THAT UID SAL AND PASSWORD VALUES CORRESPOND TO HASH
+#PROBLEM 2: DETERMINE THAT UID SALT AND PASSWORD VALUES CORRESPOND TO HASH
 
 def generateRandomPass(): #generates a random password number
     testPass = str(random.randrange(0,1001))
